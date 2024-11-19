@@ -36,7 +36,10 @@ a:focus,
 }
 
 /* Header */
+/* Header */
 header {
+  padding: 24px 1169px 24px 156px;
+
   background-color: #FFFFFF;
   padding: 16px 24px;
   display: flex;
@@ -62,8 +65,6 @@ header {
 .contact-info div {
   font-size: 14px;
 }
-
-/* Main Sections */
 #Main-1-Navyblue {
   background-color: #2E2F42;
   color: white;
@@ -120,7 +121,23 @@ header {
   color: #2E2F42;
   padding-bottom: 72px;
 }
+.forth-section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.list-item {
+  flex: 1 1 calc(33.33% - 32px);
+  /* Her satırda 3 öğe olacak şekilde */
+  max-width: calc(33.33% - 32px);
+  /* Eşit genişlik */
+  text-align: center;
+}
 .team-card {
   text-align: center;
 }
